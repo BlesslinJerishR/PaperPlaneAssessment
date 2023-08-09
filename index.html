@@ -22,87 +22,326 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg bg-body-tertiary shadow p-3 mb-5 bg-white rounded"
-    >
-      <div class="container-fluid nav-content">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 200px"
+    <main>
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary shadow p-3 mb-5 bg-white rounded"
+      >
+        <div class="container-fluid nav-content">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                <img
-                  width="24"
-                  height="24"
-                  src="https://img.icons8.com/material-sharp/24/home.png"
-                  alt="home"
-                  class="navbar-icon"
-                />&nbsp;Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><img
-                  width="24"
-                  height="24"
-                  src="https://img.icons8.com/material-outlined/24/808080/compass.png"
-                  alt="compass"
-                  class="navbar-icon"
-                />&nbsp;Shop</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><img
-                  width="24"
-                  height="24"
-                  src="https://img.icons8.com/ios-glyphs/30/808080/star--v1.png"
-                  alt="star--v1"
-                  class="navbar-icon"
-                />&nbsp;Featured</a
-              >
-            </li>
-          </ul>
-          <div class="centre-circle">
-            <div class="circle">
-              <div class="triangle"></div>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 200px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <img
+                    width="24"
+                    height="24"
+                    src="https://img.icons8.com/material-sharp/24/home.png"
+                    alt="home"
+                    class="navbar-icon"
+                  />&nbsp;Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><img
+                    width="24"
+                    height="24"
+                    src="https://img.icons8.com/material-outlined/24/808080/compass.png"
+                    alt="compass"
+                    class="navbar-icon"
+                  />&nbsp;Shop</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><img
+                    width="24"
+                    height="24"
+                    src="https://img.icons8.com/ios-glyphs/30/808080/star--v1.png"
+                    alt="star--v1"
+                    class="navbar-icon"
+                  />&nbsp;Featured</a
+                >
+              </li>
+            </ul>
+            <div class="centre-circle">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
             </div>
+            <form class="d-flex search" role="search">
+              <input
+                class="form-control me-2 input-rounded-border"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline btn-login" type="submit">
+                Log in
+              </button>
+              <button class="btn btn-outline btn-join" type="submit">
+                Join
+              </button>
+            </form>
           </div>
-          <form class="d-flex search" role="search">
-            <input
-              class="form-control me-2 input-rounded-border"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline btn-login" type="submit">
-              Log in
-            </button>
-            <button class="btn btn-outline btn-join" type="submit">Join</button>
-          </form>
         </div>
+      </nav>
+      <!-- Title section -->
+      <div class="d-flex titles">
+        <h5>Trending</h5>
+        <h5 class="t2">New</h5>
+        <h5 class="t2">Most popular</h5>
       </div>
-    </nav>
-    <!-- Title section -->
-    <div class="d-flex">
-      <h5>Trending</h5>
-      <h5>New</h5>
-      <h5>Most popular</h5>
+      <!-- Hero Section -->
+     <div class="ipad-flex">
+         <div>
+           <div class="center-container">
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 179</h5>
+               </div>
+               <img src="imgs/apple.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+6</h6>
+             </div>
+             <br>
+             <br>
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 220</h5>
+               </div>
+               <img src="imgs/orange.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+16</h6>
+             </div>
+             <br>
+             <br>
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 150</h5>
+               </div>
+               <img src="imgs/melon.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+1</h6>
+             </div>
+           </div>
+   
+           <div class="center-container d-flex">
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 189</h5>
+               </div>
+               <img src="imgs/pome.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+16</h6>
+             </div>
+             <br>
+             <br>
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 179</h5>
+               </div>
+               <img src="imgs/melon.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <h6 class="profile3 s3">+7</h6>
+             </div>
+             <br>
+             <br>
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 310</h5>
+               </div>
+               <img src="imgs/orange.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+9</h6>
+             </div>
+           </div>
+   
+           <div class="center-container d-flex">
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 279</h5>
+               </div>
+               <img src="imgs/apple.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+21</h6>
+             </div>
+             <br>
+             <br>
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 159</h5>
+               </div>
+               <img src="imgs/orange.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+5</h6>
+             </div>
+             <br>
+             <br>
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 179</h5>
+               </div>
+               <img src="imgs/pome.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <h6 class="profile3 s3">+3</h6>
+             </div>
+           </div>
+         </div>
+         <div class="ipad-flex-one">
+           <div class="center-container">
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 179</h5>
+               </div>
+               <img src="imgs/apple.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+6</h6>
+             </div>
+             <br>
+             <br>
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 220</h5>
+               </div>
+               <img src="imgs/orange.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+16</h6>
+             </div>
+             <br>
+             <br>
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 150</h5>
+               </div>
+               <img src="imgs/melon.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+1</h6>
+             </div>
+           </div>
+   
+           <div class="center-container d-flex">
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 189</h5>
+               </div>
+               <img src="imgs/pome.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+16</h6>
+             </div>
+             <br>
+             <br>
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 179</h5>
+               </div>
+               <img src="imgs/melon.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <h6 class="profile3 s3">+7</h6>
+             </div>
+             <br>
+             <br>
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 310</h5>
+               </div>
+               <img src="imgs/orange.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+9</h6>
+             </div>
+           </div>
+   
+           <div class="center-container d-flex">
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 279</h5>
+               </div>
+               <img src="imgs/apple.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+21</h6>
+             </div>
+             <br>
+             <br>
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 159</h5>
+               </div>
+               <img src="imgs/orange.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <img src="imgs/profile2.PNG" alt="profile" class="profile2" />
+               <h6 class="profile3">+5</h6>
+             </div>
+             <br>
+             <br>
+             <div class="boxer">
+               <div class="rate">
+                 <h5>&check; Rs. 179</h5>
+               </div>
+               <img src="imgs/pome.jpg" alt="apple" class="product-imgs" />
+               <img src="imgs/profile.PNG" alt="profile" class="profile" />
+               <h6 class="profile3 s3">+3</h6>
+             </div>
+           </div>
+         </div>
+     </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <img
+        width="48"
+        height="48"
+        src="https://img.icons8.com/fluency/48/triangle-stroked.png"
+        alt="triangle-stroked"
+      />
+      <br />
+      <br />
+      <div class="address">
+          <h6>
+            PaperPlane ,<br />
+            Fort, near Horniman Circle,<br />
+            Mumbai, Maharashtra<br />
+            400001.
+          </h6>
+      </div>
+
+      <div class="copyright">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p>&copy; <span id="currentYear"></span> PaperPlane. All rights reserved.</p>
+        <p>Developed <i class="fas fa-heart"></i> by Blesslin Jerish R</p>
+      </div>
     </div>
+    </footer>
+    <!-- Automatic Year JS -->
+    <script>
+    // Current Year
+    const currentYear = new Date().getFullYear();
+    document.getElementById('currentYear').textContent = currentYear;
+    </script>
     <!-- Bootstrap JS  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
