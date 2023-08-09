@@ -1,6 +1,6 @@
 /* Poppins Google Font*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap');
 
 /* Root CSS styles */
 
@@ -109,7 +109,6 @@ h5 {
 
 .boxer:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
 }
 
 .product-imgs {
@@ -174,6 +173,27 @@ footer {
     margin-left: -15rem;
 }
 
+/* Closeable Alert Styles */
+
+.alert-dismissible {
+    background-color: #2EDBB8;
+    height: 10rem;
+    margin-top: -3rem;
+}
+
+.sub-content-2 {
+    margin-left: 26.5rem;
+    font-weight: 100 !important;
+}
+
+.display-6 {
+    font-size: 1.8rem;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
 /* Mobile Screen Media Query */
 @media only screen and (max-width: 820px) {
     .ipad-flex {
@@ -215,11 +235,40 @@ footer {
         height: 400px;
         width: 380px;
     }
+
+    .alert-dismissible {
+        background-color: #2EDBB8;
+        height: 10rem;
+        margin-top: -3rem;
+    }
+
+    .sub-content-2 {
+        margin-left: 0;
+        font-weight: 100 !important;
+    }
+
+    .canopy {
+        margin-left: -8rem;
+    }
+
+    .display-6 {
+        font-size: 1.1rem;
+    }
 }
 
 @media only screen and (max-width: 425px) {
     .ipad-flex-one {
         display: none;
+    }
+
+    .canopy {
+        margin-left: 0;
+    }
+
+    .alert-dismissible {
+        background-color: #2EDBB8;
+        height: 14rem;
+        margin-top: -3rem;
     }
 }
 
