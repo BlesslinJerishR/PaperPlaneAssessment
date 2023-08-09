@@ -351,6 +351,12 @@
     </footer>
     <!-- Automatic Year JS -->
     <script>
+
+        if (window.innerWidth >= 1024 && window.innerWidth <= 1440) {
+         document.body.style.zoom = "67%";
+    }else{
+        document.body.style.zoom = "100%";
+    }
     // Current Year
     const currentYear = new Date().getFullYear();
     document.getElementById('currentYear').textContent = currentYear;
