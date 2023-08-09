@@ -1,0 +1,133 @@
+/* Poppins Google Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* Root CSS styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body CSS styles*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden !important;
+}
+
+/* Navbar CSS styles */
+
+.navbar-icon {
+    margin-top: -5px;
+}
+
+.nav {
+    background-color: #FFFEFE;
+    box-shadow: 0px 3px 8px -4px rgba(0, 0, 0, 0.15);
+}
+
+.nav-content {
+    padding-left: 20rem;
+}
+
+.search {
+    margin-right: 20rem;
+}
+
+.input-rounded-border {
+    border-radius: 50px;
+}
+
+.btn-join {
+    background-color: #2ED8B8;
+    color: #FFF;
+    border-radius: 50px;
+    width: 6rem;
+}
+
+.btn-login {
+    width: 8rem;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    background-color: #2EDBB8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: -15rem;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 18px solid white;
+    position: absolute;
+}
+
+/* Mobile Screen Media Query */
+
+@media only screen and (max-width: 768px) {
+    .nav-content {
+        padding-left: 0rem;
+    }
+
+    .btn-join {
+        width: 15rem;
+    }
+
+    .btn-login {
+        width: 8rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .nav-content {
+        padding-left: 0rem;
+    }
+
+    .btn-join {
+        width: 5rem;
+        margin-left: -1rem;
+    }
+
+    .btn-login {
+        width: 8rem;
+        margin-left: -2rem;
+    }
+
+    .input-rounded-border {
+        width: 7rem !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .nav-content {
+        padding-left: 0rem;
+    }
+
+    .btn-join {
+        width: 5rem;
+        margin-left: -1rem;
+    }
+
+    .btn-login {
+        width: 8rem;
+        margin-left: -2rem;
+    }
+
+    .input-rounded-border {
+        width: 10rem;
+    }
+}
