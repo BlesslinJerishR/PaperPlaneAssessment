@@ -108,7 +108,7 @@ h5 {
 }
 
 .boxer:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 34px 38px rgba(0, 0, 0, 0.1);
 }
 
 .product-imgs {
@@ -243,12 +243,12 @@ footer {
     }
 
     .sub-content-2 {
-        margin-left: 0;
+        margin-left: 3rem;
         font-weight: 100 !important;
     }
 
     .canopy {
-        margin-left: -8rem;
+        margin-left: -2rem;
     }
 
     .display-6 {
